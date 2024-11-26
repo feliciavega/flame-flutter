@@ -18,7 +18,7 @@ class AsteroidSpawner extends PositionComponent with HasGameRef{
       period: 0.5,
       autoStart: true, //jarak penambahan spawn komponen baru, dalam satuan detik
       area: Rectangle.fromLTWH(0, 0, game.size.x, game.size.y),
-      within: false,
+      within: false, 
     );
     game.add(spawner);
   return super.onLoad();
